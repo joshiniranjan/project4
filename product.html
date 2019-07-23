@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cognitifai</title>
+	<link media="all" rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/menu.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet"> 
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<script src="js/modernizr.js" ></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js" ></script>  
+	<script type="text/javascript">window.jQuery || document.write('<script src="js/jquery-1.11.2.min.js"><\/script>')</script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<script type="text/javascript" src="js/jquery.main.js"></script>
+</head>
+<body>
+	<div id="wrapper">
+		<header id="header">
+			<div class="holder">
+				<div class="logo">
+					<a href="#"><img src="images/logo.png" alt="image description"></a>
+				</div>
+				<div class="cd-dropdown-wrapper">
+					<a class="cd-dropdown-trigger" href="#0">Dropdown</a>
+					<nav class="cd-dropdown">
+						<h2>Title</h2>
+						<a href="#0" class="cd-close">Close</a>
+						<ul class="cd-dropdown-content">
+							<li>
+								<form class="cd-search">
+									<input type="search" placeholder="Search...">
+								</form>
+							</li>
+							<li class="has-children">
+								<a href="#">Clothing</a>
+
+								<ul class="cd-secondary-dropdown is-hidden">
+									<li class="go-back"><a href="#0">Menu</a></li>
+									<li class="see-all"><a href="#">All Clothing</a></li>
+									<li class="has-children">
+										<a href="#">Accessories</a>
+
+										<ul class="is-hidden">
+											<li class="go-back"><a href="#0">Clothing</a></li>
+											<li class="see-all"><a href="#">All Accessories</a></li>
+											<li class="has-children">
+												<a href="#0">Beanies</a>
+
+												<ul class="is-hidden">
+													<li class="go-back"><a href="#0">Accessories</a></li>
+													<li class="see-all"><a href="#">All Benies</a></li>
+													<li><a href="#">Caps &amp; Hats</a></li>
+													<li><a href="#">Gifts</a></li>
+													<li><a href="#">Scarves &amp; Snoods</a></li>
+												</ul>
+											</li>
+											<li class="has-children">
+												<a href="#0">Caps &amp; Hats</a>
+
+												<ul class="is-hidden">
+													<li class="go-back"><a href="#0">Accessories</a></li>
+													<li class="see-all"><a href="#">All Caps &amp; Hats</a></li>
+													<li><a href="#">Beanies</a></li>
+													<li><a href="#">Caps</a></li>
+													<li><a href="#">Hats</a></li>
+												</ul>
+											</li>
+											<li><a href="#">Glasses</a></li>
+											<li><a href="#">Gloves</a></li>
+											<li><a href="#">Jewellery</a></li>
+											<li><a href="#">Scarves</a></li>
+										</ul>
+									</li>
+
+									<li class="has-children">
+										<a href="#">Bottoms</a>
+
+										<ul class="is-hidden">
+											<li class="go-back"><a href="#0">Clothing</a></li>
+											<li class="see-all"><a href="#">All Bottoms</a></li>
+											<li><a href="#">Casual Trousers</a></li>
+											<li class="has-children">
+												<a href="#0">Jeans</a>
+
+												<ul class="is-hidden">
+													<li class="go-back"><a href="#0">Bottoms</a></li>
+													<li class="see-all"><a href="#">All Jeans</a></li>
+													<li><a href="#">Ripped</a></li>
+													<li><a href="#">Skinny</a></li>
+													<li><a href="#">Slim</a></li>
+													<li><a href="#">Straight</a></li>
+												</ul>
+											</li>
+											<li><a href="#0">Leggings</a></li>
+											<li><a href="#0">Shorts</a></li>
+										</ul>
+									</li>
+
+									<li class="has-children">
+										<a href="#">Jackets</a>
+
+										<ul class="is-hidden">
+											<li class="go-back"><a href="#0">Clothing</a></li>
+											<li class="see-all"><a href="#">All Jackets</a></li>
+											<li><a href="#">Blazers</a></li>
+											<li><a href="#">Bomber jackets</a></li>
+											<li><a href="#">Denim Jackets</a></li>
+											<li><a href="#">Duffle Coats</a></li>
+											<li><a href="#">Leather Jackets</a></li>
+											<li><a href="#">Parkas</a></li>
+										</ul>
+									</li>
+
+									<li class="has-children">
+										<a href="#">Tops</a>
+
+										<ul class="is-hidden">
+											<li class="go-back"><a href="#0">Clothing</a></li>
+											<li class="see-all"><a href="#">All Tops</a></li>
+											<li><a href="#">Cardigans</a></li>
+											<li><a href="#">Coats</a></li>
+											<li><a href="#">Polo Shirts</a></li>
+											<li><a href="#">Shirts</a></li>
+											<li class="has-children">
+												<a href="#0">T-Shirts</a>
+
+												<ul class="is-hidden">
+													<li class="go-back"><a href="#0">Tops</a></li>
+													<li class="see-all"><a href="#">All T-shirts</a></li>
+													<li><a href="#">Plain</a></li>
+													<li><a href="#">Print</a></li>
+													<li><a href="#">Striped</a></li>
+													<li><a href="#">Long sleeved</a></li>
+												</ul>
+											</li>
+											<li><a href="#">Vests</a></li>
+										</ul>
+									</li>
+								</ul> <!-- .cd-secondary-dropdown -->
+							</li> <!-- .has-children -->
+
+							<li class="has-children">
+								<a href="#">Gallery</a>
+
+								<ul class="cd-dropdown-gallery is-hidden">
+									<li class="go-back"><a href="#0">Menu</a></li>
+									<li class="see-all"><a href="#">Browse Gallery</a></li>
+									<li>
+										<a class="cd-dropdown-item" href="#">
+											<img src="images/img.png" alt="Product Image">
+											<h3>Product #1</h3>
+										</a>
+									</li>
+
+									<li>
+										<a class="cd-dropdown-item" href="#">
+											<img src="images/img.png" alt="Product Image">
+											<h3>Product #2</h3>
+										</a>
+									</li>
+
+									<li>
+										<a class="cd-dropdown-item" href="#">
+											<img src="images/img.png" alt="Product Image">
+											<h3>Product #3</h3>
+										</a>
+									</li>
+
+									<li>
+										<a class="cd-dropdown-item" href="#">
+											<img src="images/img.png" alt="Product Image">
+											<h3>Product #4</h3>
+										</a>
+									</li>
+								</ul> <!-- .cd-dropdown-gallery -->
+							</li> <!-- .has-children -->
+
+							<li class="has-children">
+								<a href="#">Services</a>
+								<ul class="cd-dropdown-icons is-hidden">
+									<li class="go-back"><a href="#0">Menu</a></li>
+									<li class="see-all"><a href="#">Browse Services</a></li>
+									<li>
+										<a class="cd-dropdown-item item-1" href="#">
+											<h3>Service #1</h3>
+											<p>This is the item description</p>
+										</a>
+									</li>
+
+									<li>
+										<a class="cd-dropdown-item item-2" href="#">
+											<h3>Service #2</h3>
+											<p>This is the item description</p>
+										</a>
+									</li>
+
+									<li>
+										<a class="cd-dropdown-item item-3" href="#">
+											<h3>Service #3</h3>
+											<p>This is the item description</p>
+										</a>
+									</li>
+
+									<li>
+										<a class="cd-dropdown-item item-4" href="#">
+											<h3>Service #4</h3>
+											<p>This is the item description</p>
+										</a>
+									</li>
+
+									<li>
+										<a class="cd-dropdown-item item-5" href="#">
+											<h3>Service #5</h3>
+											<p>This is the item description</p>
+										</a>
+									</li>
+
+									<li>
+										<a class="cd-dropdown-item item-6" href="#">
+											<h3>Service #6</h3>
+											<p>This is the item description</p>
+										</a>
+									</li>
+
+									<li>
+										<a class="cd-dropdown-item item-7" href="#">
+											<h3>Service #7</h3>
+											<p>This is the item description</p>
+										</a>
+									</li>
+
+									<li>
+										<a class="cd-dropdown-item item-8" href="#">
+											<h3>Service #8</h3>
+											<p>This is the item description</p>
+										</a>
+									</li>
+
+									<li>
+										<a class="cd-dropdown-item item-9" href="#">
+											<h3>Service #9</h3>
+											<p>This is the item description</p>
+										</a>
+									</li>
+
+									<li>
+										<a class="cd-dropdown-item item-10" href="#">
+											<h3>Service #10</h3>
+											<p>This is the item description</p>
+										</a>
+									</li>
+
+									<li>
+										<a class="cd-dropdown-item item-11" href="#">
+											<h3>Service #11</h3>
+											<p>This is the item description</p>
+										</a>
+									</li>
+
+									<li>
+										<a class="cd-dropdown-item item-12" href="#">
+											<h3>Service #12</h3>
+											<p>This is the item description</p>
+										</a>
+									</li>
+
+								</ul> <!-- .cd-dropdown-icons -->
+							</li> <!-- .has-children -->
+
+							<li class="cd-divider">Divider</li>
+
+							<li><a href="#">Page 1</a></li>
+							<li><a href="#">Page 2</a></li>
+							<li><a href="#">Page 3</a></li>
+						</ul> <!-- .cd-dropdown-content -->
+					</nav> <!-- .cd-dropdown -->
+					<div class="togglebutton">
+						<div class="toggleWrapper">
+							<input type="checkbox" class="dn" id="dn"/>
+							<label for="dn" class="toggle">
+								<span class="toggle__handler">
+									<span class="crater crater--1"></span>
+									<span class="crater crater--2"></span>
+									<span class="crater crater--3"></span>
+								</span>
+								<span class="star star--1"></span>
+								<span class="star star--2"></span>
+								<span class="star star--3"></span>
+								<span class="star star--4"></span>
+								<span class="star star--5"></span>
+								<span class="star star--6"></span>
+							</label>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main id="main" role="main">
+			<div class="product-detail">
+				<div class="optimize-block viewport-section">
+					<div class="holder">
+						<div class="text-wrap">
+							<h1> popular belief, Lorem Ipsum is not simply random text. It has </h1>
+							<p> popular belief, Lorem Ipsum is not simply random text. It has </p>
+							<p> popular belief, Lorem Ipsum is not simply random text. It has </p>
+						</div>
+					</div>
+				</div>
+				<div class="product-block viewport-section">
+					<div class="holder">
+						<a href="#" class="list-opener">
+							
+						</a>
+						<ul class="menu-list">
+							<li class="active"><a class="active" href="#">Product</a></li>
+							<li><a href="product2.html">How it works</a></li>
+							<li><a href="product3.html">Connectors</a></li>
+							<li><a href="product4.html">Machine learning</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="info-block white viewport-section">
+					<div class="holder">
+						<div class="img-wrap">
+							<div class="image-holder">
+								<img src="images/img5.jpg" alt="image description">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="work-block viewport-section">
+					<div class="holder">
+						<div class="two-blocks">
+							<div class="text-block">
+								<h2> popular belief, Lorem <span class="title-decor"></span></h2>
+								<p>It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum</p>
+								<p>Simply configure your business objectives, advertisement message and let asda das  work for you.</p>
+								<a href="#" class="btn">See how it works</a>
+							</div>
+							<div class="image-block">
+								<div class="img-wrap">
+									<img src="images/image17.png" width="138" alt="image14 description">
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="work-block extra-decor viewport-section">
+					<div class="holder">
+						<div class="two-blocks swap">
+							<div class="text-block">
+								<h2>It uses a dictionary of over 200 Latin words, combined with a <span class="title-decor"></span></h2>
+								<p>It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum</p>
+								<p>with a handful of model sentence structures, to generate Lorem Ipsum</p>
+								<p>e how asda das  cotinously gets smarterand starts to tweak your bidding in order to get the optimal convers.</p>
+							</div>
+							<div class="image-block">
+								<div class="img-wrap">
+									<img src="images/circle14.svg" width="138" alt="image14 description">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="support-block viewport-section">
+					<div class="holder">
+						<h2>u’re always in the drivers seat - as long as to be.<span class="title-decor"></span></h2>
+						<div class="two-columns height-js">
+							<div class="col">
+								<div class="image-wrap same-height">
+									<img src="images/circle14.svg" width="138" alt="image14 description">
+								</div>
+								<div class="text-wrap">
+									<h3>sd as asd asd supported</h3>
+									<p> It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum</p>
+									<p>lways free from repetition, injected humour, or non-characteristic words etc.lways free from repetition, injected humour, or non-characteristic words etc.</p>
+								</div>
+							</div>
+							<div class="col">
+								<div class="image-wrap same-height small">
+									<img src="images/image9.svg" width="173"  alt="image8 description">
+								</div>
+								<div class="text-wrap">
+									<h3>lways free from repetition, injected humour, or non-characteristic words etc.</h3>
+									<p>Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. </p>
+									<p>Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.  either fixed or relative to the price of a sale.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="smallinfo-block viewport-section">
+					<div class="holder">
+						<div class="two-columns height-js">
+							<div class="col">
+								<div class="image-wrap same-height">
+									<div class="image-hold">
+										
+									</div>
+								</div>
+								<div class="text-wrap">
+									<h3>Advanced analitics &amp; reporting</h3>
+									<p>predefined chunks as necessary, making this the first true generator on the Internet.  either fixed or relative </p>
+									<p>predefined chunks as necessary, making this the first true generator on the Internet.  either fixed or relative </p>
+								</div>
+							</div>
+							<div class="col">
+								<div class="image-wrap same-height small">
+									<div class="image-hold">
+										
+									</div>
+								</div>
+								<div class="text-wrap">
+									<h3>All markets &amp; languages supported</h3>
+									<p>No matter where you are marketing your products or services. asda das  can optimize it. Our text intelligence engine seamlessly detects the language to optimize.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="description-block viewport-section">
+					<div class="holder">
+						<div class="heading-wrap">
+							<h2>Put your Adwords on auto-pilot today</h2>
+							<p>Why do manually, what a machine can do for you faster and better?</p>
+						</div>
+						<a href="#" class="btn">Start FREE</a>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer id="footer">
+			<aside class="info-footer">
+				<div class="holder"> 
+					<div class="col-holder">
+						<div class="col">
+							<h4><i class="icon icon-contact"></i>Products</h4>
+							<ul class="footer-links">
+								<li><a href="#">Products</a></li>     
+								<li><a href="#">solution</a></li>     
+								<li><a href="#">client</a></li>   
+							</ul>
+						</div>
+						<div class="col">
+							<h4><i class="icon icon-setting"></i>Solutions</h4>
+							<ul class="footer-links">
+								<li><a href="#">Library</a></li>     
+								<li><a href="#">Task</a></li>     
+								<li><a href="#">Application</a></li>    
+							</ul>
+						</div>
+						<div class="col">
+							<h4><i class="icon icon-setting"></i>Clients</h4>
+							<ul class="footer-links">
+								<li><a href="#">Library</a></li>     
+								<li><a href="#">Task</a></li>     
+								<li><a href="#">Application</a></li>        
+							</ul>
+						</div>
+						<div class="col">
+							<h4><i class="icon icon-setting"></i>Resources</h4>
+							<ul class="footer-links">
+								<li><a href="#">Library</a></li>     
+								<li><a href="#">Task</a></li>     
+								<li><a href="#">Application</a></li>       
+							</ul>
+						</div>
+						<div class="col">
+							<h4><i class="icon icon-connection"></i>Follow</h4>
+							<ul class="social-networks">
+								<li><a href="#"><i class="icon icon-facebook"></i><span class="txt">Facebook</span></a></li>
+								<li><a href="#"><i class="icon icon-linkedin"></i><span class="txt">LinkedIn</span></a></li>
+								<li><a href="#"><i class="icon icon-we-chat"></i><span class="txt">WeChat</span></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</aside>
+			<div class="footer-bottom">
+				<div class="holder">
+					<p>&copy; 2016 Congnitifai. All rights reserved</p>
+				</div>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>
